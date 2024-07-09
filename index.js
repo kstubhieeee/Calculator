@@ -15,3 +15,19 @@ function calculate() {
     display.value = "Error";
   }
 }
+
+function square() {
+  try {
+    display.value = Math.pow(eval(display.value), 2);
+  } catch (error) {
+    display.value = "Error";
+  }
+}
+
+function cube() {
+  try {
+    display.value = Math.pow(eval(display.value), 3);
+  } catch (error) {
+    display.value = "Error";
+  }
+}
